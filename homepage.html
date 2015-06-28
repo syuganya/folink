@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Folink Page</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Bootstrap -->
+    <link href="css/bootstrap.min.css" rel="stylesheet" media="screen">
+    <!--custom css -->
+    <link href="css/mainlayout.css" rel="stylesheet" media="screen">
+    <!-- font-awsome icons -->
+    <link rel="stylesheet" href="font-awesome/css/font-awesome.min.css">
+</head>
+
+<body>
+    <div class="container-fluid">
+        <div class="row-fluid">
+            <div>ANALYZING MILLIONS OF REVIEWS</div>
+            <div>to find the best rated websites for you.</div>
+            <div>A small river named Duden flows by their place and supplies it with the necessary regelialia. It is a paradisematic country,in which parts of sentences fly into your mouth.
+            </div>
+        </div>
+        <div>Hottest this week</div>
+        <div class="item-container row1">
+            <div class="leftitem-container">
+                <div class="item-titlebar">nikeairshoe</div>
+            </div>
+            <div class="rightitem-container" style="margin-top:0px">
+                <div class="item-titlebar">nikeairshoe</div>
+            </div>
+        </div>
+        <div class="item-container row2">
+            <div class="rightitem-container">
+                <div class="item-titlebar">nikeairshoe</div>
+            </div>
+            <div class="rightitem-container">
+                <div class="item-titlebar">nikeairshoe</div>
+            </div>
+            <div class="rightitem-container">
+                <div class="item-titlebar">nikeairshoe</div>
+            </div>
+        </div>
+        <div class="item-container row3">
+            <div class="rightitem-container">
+                <div class="item-titlebar">nikeairshoe</div>
+            </div>
+            <div class="rightitem-container">
+                <div class="item-titlebar">nikeairshoe</div>
+            </div>
+            <div class="rightitem-container">
+                <div class="item-titlebar">nikeairshoe</div>
+            </div>
+        </div>
+        <div class="item-container row4">
+            <div class="rightitem-container">
+                <div class="item-titlebar">nikeairshoe</div>
+            </div>
+            <div class="rightitem-container">
+                <div class="item-titlebar">nikeairshoe</div>
+            </div>
+            <div class="rightitem-container">
+                <div class="item-titlebar">nikeairshoe</div>
+            </div>
+        </div>
+        <div class="item-container row5">
+            <div class="rightitem-container">
+                <div class="item-titlebar">nikeairshoe</div>
+            </div>
+            <div class="rightitem-container">
+                <div class="item-titlebar">nikeairshoe</div>
+            </div>
+            <div class="rightitem-container">
+                <div class="item-titlebar">nikeairshoe</div>
+            </div>
+        </div>
+        <div class="item-container row6">
+            <div class="rightitem-container">
+                <div class="item-titlebar">nikeairshoe</div>
+            </div>
+            <div class="rightitem-container">
+                <div class="item-titlebar">nikeairshoe</div>
+            </div>
+            <div class="rightitem-container">
+                <div class="item-titlebar">nikeairshoe</div>
+            </div>
+        </div>
+    </div>
+    <script type="text/javascript">
+    jQuery(window).load(function() {
+        $("#loader").hide();
+
+    });
+
+    $(document).ready(function() {
+        /*$(".over-container-1").css("height","3785px");*/
+        rowheight();
+
+    });
+
+    function rowheight() {
+        var headerheight = 55;
+        var row_height = $(window).height() - headerheight;
+        var row_width = $(window).width();
+        $(".precise_row-height").css("height", row_height);
+
+    }
+
+    if (appContext.isiPad) {
+        $('.ipad-div').css('display', 'inline-block');
+    }
+
+
+    function rowscroll() {
+        var precise_secondrow = $('.precise_row2').position().top;
+        $("#main").animate({
+            scrollTop: precise_secondrow
+        }, 1500); //smooth scroll to div when clicked on image
+
+    }
+    $(window).resize(function() {
+        rowheight();
+
+    });
+    </script>
+</body>
+
+</html>

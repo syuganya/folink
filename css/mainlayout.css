@@ -1,0 +1,579 @@
+body {
+  padding-top: 60px;
+  font-size: 12px;
+  /* 60px to make the container go all the way to the bottom of the topbar */
+}
+/*header menu styles*/
+
+.navbar-inverse {
+  background-color: #fff;
+  border-color: #fff;
+}
+
+.nav-menus .nav-left>ul>li>a {
+  font-size: 12px;
+}
+
+.nav>li {
+  position: relative;
+  float: left;
+}
+
+.nav>li>a {
+  color: #888;
+  margin-right: 30px;
+  margin: 10px 15px;
+  padding: 0px;
+  font-size: 14px;
+}
+
+.nav>li>a:hover {
+  background-color: transparent;
+  border-bottom: 2px solid red;
+}
+
+.nav>li>a:focus {
+  background-color: #fff;
+}
+
+.active {
+  background-color: transparent;
+  border-bottom: 2px solid red;
+}
+
+.nav-menus {
+  padding-top: 20px;
+  padding-left: 0px;
+}
+
+.nav-left {
+  float: left;
+}
+
+.nav-right {
+  float: right;
+}
+
+.logo {
+  float: left;
+  padding: 15px;
+}
+/* main- leftmenus styles */
+
+.main-leftmenus {
+  list-style: none;
+  padding: 0px;
+  margin-left: 20%;
+}
+
+.main-leftmenus .active {
+  color: red;
+  border-bottom: 0px solid #fff;
+}
+
+.main-leftmenus >li>a {
+  color: #000;
+  text-transform: uppercase;
+  text-decoration: none;
+  padding: 10px;
+  display: block;
+}
+
+.main-leftmenus >li>a:hover {
+  color: red;
+  cursor: pointer;
+}
+
+.main-leftmenus >li>a> i {
+  float: right;
+  padding: 10px;
+}
+
+.notify-container {
+  width: 230px;
+  background-color: #ccc;
+  margin: 50px;
+}
+
+.notification {
+  padding: 10px;
+}
+
+.notification-title {
+  font-size: 16px;
+  padding: 5px;
+  text-transform: uppercase;
+}
+
+.notification-content {
+  font-size: 10px;
+  padding: 10px;
+  color: #888;
+  text-transform: capitalize;
+  border-top: 1px solid #888;
+}
+
+.notification-content span {
+  float: right;
+  color: #888;
+  text-transform: capitalize;
+}
+
+.notifier-name {
+  color: red;
+  text-transform: uppercase;
+}
+/*sub menu styles*/
+
+.sub-leftmenus {
+  display: none;
+  position: absolute;
+  z-index: 1;
+  margin-left: 90%;
+  width: 175px;
+  padding: 0px;
+  top: 0;
+  list-style: none;
+  background-color: #888;
+}
+
+.sub-leftmenus li {
+  padding: 10px;
+}
+
+.sub-leftmenus >li>a:hover {
+  color: red;
+  cursor: pointer;
+}
+
+.sub-leftmenus li > a {
+  color: #fff;
+  font-size: 12px;
+  text-transform: uppercase;
+  padding: 10px;
+  text-decoration: none;
+}
+/*footer styles */
+
+.footer {
+  background-color: #ddd;
+}
+
+.footer-menus {
+  background-color: #ddd;
+  list-style: none;
+  padding: 0px;
+}
+
+.footer-menus .active {
+  background-color: #ddd;
+  color: red;
+  border-bottom: 0px solid #fff;
+}
+
+.footer-menus >li>a {
+  color: #000;
+  text-transform: capitalize;
+  text-decoration: none;
+  padding: 5px;
+  display: block;
+  padding-left: 0px;
+}
+
+.footer-title {
+  text-transform: uppercase;
+  font-size: 14px;
+}
+
+.footer-socialmenus {
+  list-style: none;
+  left: -18%;
+  position: relative;
+  text-decoration: none;
+}
+
+.footer-socialmenus>li {
+  float: left;
+  padding: 8px;
+  font-size: 20px;
+}
+
+.footer-socialmenus>li>a {
+  color: #888;
+}
+/*newsletter search box */
+
+input[type="text"] {
+  width: 200px;
+  height: 25px;
+  padding-right: 50px;
+}
+
+input[type="submit"] {
+  margin-left: -50px;
+  height: 25px;
+  width: 50px;
+  background: #FF6B00;
+  color: #000;
+  border: 0;
+  -webkit-appearance: none;
+}
+/*search bar*/
+
+.searchbar-container {
+  background-color: #ccc;
+  height: 40px;
+}
+
+.searchbar {
+  width: 90% !important;
+  height: 37px !important;
+  margin-top: 3px;
+  position: relative;
+}
+
+.search,
+input[type="submit"] {
+  font-family: FontAwesome;
+  background-color: red;
+  color: #fff;
+}
+
+.search {
+  width: 10% !important;
+  height: 40px !important;
+  position: absolute;
+  font-size: 18px;
+}
+/*items*/
+
+.item-padding {
+  padding-left: 0px;
+  padding: 20px;
+}
+
+.item-heading {
+  height: 50px;
+  background-color: #ccc;
+  color: #fff;
+}
+/*folink homepage*/
+
+.item-container {
+  width: 100%;
+}
+
+.leftitem-container {
+  background-image: url("../img/iphone6.png");
+  background-size: cover;
+  width: 60%;
+  height: 40vh;
+  float: left;
+  display: none;
+  position: absolute;
+}
+
+.rightitem-container {
+  background-image: url("../img/iphone6.png");
+  background-size: cover;
+  width: 100%;
+  height: 40vh;
+  float: left;
+}
+
+.carousel {
+  width: 40%;
+  height: 26.5vh;
+  position: relative;
+  float: right;
+}
+
+.carousel-nav {
+  width: 100%;
+  height: 50%;
+  position: relative;
+  float: right;
+  background-color: #262626;
+  color: #fff;
+  border-bottom: 2px solid #404040;
+  border-left: 4px solid #262626;
+}
+
+.carousel-inner {
+  width: 60%;
+  overflow: visible;
+}
+
+.activeSlider {
+  border-left: 4px solid red;
+}
+
+.pagination {
+  width: 15px;
+  height: 15px;
+  background-color: #ccc;
+  position: relative;
+  margin-top: 30vh;
+  border-radius: 0px;
+  left: 10px;
+}
+
+.activeindicator {
+  background-color: red;
+}
+
+.container-border {
+  border-left: 1px solid #ccc;
+  margin-left: 8px;
+}
+
+.carousel-nav .item-title {
+  font-size: 16px;
+  font-family: Lato Light;
+  color: #fff;
+  padding: 8px;
+  padding-right: 0px;
+  padding-bottom: 0px;
+}
+
+.carousel-nav .item-subtitle {
+  font-size: 12px;
+  text-transform: none;
+  padding-top: 0px;
+}
+
+.item-titlebar {
+  background-color: #404040;
+  height: 10vh;
+}
+
+.item-padding {
+  padding: 20px;
+  padding-right: 0px;
+}
+/*top content*/
+
+.content {
+  padding: 20px;
+  padding-bottom: 0px;
+}
+
+.content-title {
+  font-size: 30px;
+  font-family: Lato Light;
+  letter-spacing: 0.1em;
+  line-height: 1em;
+  color: red;
+}
+
+.content-subtitle {
+  font-size: 20px;
+  color: #323232;
+  font-family: Lato Light;
+}
+
+.content-description {
+  font-size: 12px;
+  color: #888;
+  padding: 10px;
+  padding-left: 0px;
+}
+
+.item-container-title {
+  padding: 20px;
+  padding-bottom: 0px;
+  font-size: 22px;
+  font-family: Lato Light;
+}
+
+.item-container-title span {
+  float: right;
+  color: red;
+  font-weight: bold;
+  font-size: 12px;
+  text-transform: uppercase;
+  font-family: Lato Light;
+}
+
+.item-container-title span i {
+  color: #888;
+  padding: 5px;
+}
+
+.item-leftcontent {
+  float: left;
+}
+
+.item-title {
+  font-size: 18px;
+  color: #fff;
+  font-family: Lato Light;
+  text-transform: uppercase;
+  padding: 5px;
+  padding-bottom: 0px;
+}
+
+.item-subtitle {
+  font-size: 12px;
+  text-transform: uppercase;
+  color: #ccc;
+  padding-left: 10px;
+  padding-right: 8px;
+}
+
+.item-rightcontent {
+  float: left;
+  padding: 20px;
+  font-size: 14px;
+  color: #fff;
+}
+
+.category-border {
+  border-bottom: 1px solid #888;
+  position: relative;
+}
+
+.review-rating {
+  padding: 10px;
+  padding-bottom: 0px;
+}
+
+.review-folink {
+  padding: 10px;
+  padding-top: 0px;
+  color: red;
+  text-transform: uppercase;
+}
+/*review star */
+
+fieldset,
+label {
+  margin: 0;
+  padding: 0;
+}
+
+.rating {
+  border: none;
+  float: right;
+}
+
+.rating > input {
+  display: none;
+}
+
+.rating > label:before {
+  margin: 5px;
+  font-size: 1em;
+  font-family: FontAwesome;
+  display: inline-block;
+  content: "\f005";
+}
+
+.rating > .half:before {
+  content: "\f089";
+  position: absolute;
+}
+
+.rating .empty {
+  color: #DDD;
+}
+
+.rating > label {
+  color: #F70606;
+  float: inherit;
+}
+/***** CSS Magic to Highlight Stars on Hover *****/
+
+.rating > input:checked ~ label,
+/* show gold star when clicked */
+/*.rating:not(:checked) > label:hover,*/
+/* hover current star */
+/*.rating:not(:checked) > label:hover ~ label {
+  color: #F70606;
+}*/
+/* hover previous stars in list */
+/*.rating > input:checked + label:hover,
+ hover current star when changing rating 
+
+.rating > input:checked ~ label:hover,
+.rating > label:hover ~ input:checked ~ label,
+*/
+/* lighten current selection */
+/*.rating > input:checked ~ label:hover ~ label {
+  color: #F70606;
+}
+*/
+
+.reviewstar {
+  float: right;
+  /* padding: 50px;
+ padding-top: 0px;
+ padding-right: 0px;
+ margin-top: -20px;
+*/
+}
+
+.loadmore {
+  left: 0;
+  right: 0;
+  margin: 0px auto;
+  padding: 60px;
+  width: 380px;
+  margin-left: 30%;
+}
+
+.loadmore-button {
+  background-color: red;
+  padding: 15px;
+  font-size: 18px;
+  text-align: center;
+  text-transform: uppercase;
+  color: #fff;
+}
+/*scrollbar styles*/
+
+.scrollbar {
+  margin-left: 30px;
+  float: left;
+  height: 300px;
+  width: 65px;
+  background: #F5F5F5;
+  overflow-y: scroll;
+  margin-bottom: 25px;
+}
+
+.force-overflow {
+  min-height: 450px;
+}
+
+#wrapper {
+  text-align: center;
+  width: 500px;
+  margin: auto;
+}
+/*
+ *  STYLE 3
+ */
+
+#style-3::-webkit-scrollbar-track {
+  -webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3);
+  background-color: #F5F5F5;
+}
+
+#style-3::-webkit-scrollbar {
+  width: 6px;
+  background-color: #F5F5F5;
+}
+
+#style-3::-webkit-scrollbar-thumb {
+  background-color: #000000;
+}
+
+@media (max-width: 1075px) and (min-width: 1000px) {
+  .notify-container {
+    margin: 0px;
+  }
+  .main-leftmenus {
+    margin-left: 0%;
+  }
+}
