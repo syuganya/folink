@@ -129,7 +129,7 @@ body {
   display: none;
   position: absolute;
   z-index: 1;
-  margin-left: 90%;
+  margin-left: 84%;
   width: 175px;
   padding: 0px;
   top: 0;
@@ -575,5 +575,8 @@ label {
   }
   .main-leftmenus {
     margin-left: 0%;
+  }
+  .sub-leftmenus {
+    margin-left: 103%;
   }
 }

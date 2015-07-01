@@ -116,7 +116,7 @@
 .sort-dropdown ul {
   list-style: none;
   position: relative;
-  float: left;
+  float: right;
   padding: 5px;
   border: 1px solid red;
 }
@@ -177,4 +177,11 @@
 
 .selected {
   display: block !important;
+}
+/*sports landing page*/
+
+.landing-title {
+  color: red;
+  font-size: 32px;
+  font-family: Lato Light;
 }
