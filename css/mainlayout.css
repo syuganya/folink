@@ -446,6 +446,11 @@ input[type="submit"] {
 }
 /*review star */
 
+.icon-star {
+  color: red;
+  padding: 2px;
+}
+
 fieldset,
 label {
   margin: 0;
