@@ -1,0 +1,80 @@
+.goal-subtitle {
+  font-size: 12px;
+  text-transform: CAPITALIZE;
+  color: red;
+}
+
+.goal {
+  margin: 10px;
+  width: 100%;
+}
+
+.goal-leftcontainer {
+  background-image: url("../img/iphone6.png");
+  background-size: cover;
+  width: 100%;
+  height: 40vh;
+  padding: 10px;
+  float: left;
+}
+
+.about {
+  font-size: 20px;
+  text-transform: uppercase;
+  padding: 20px;
+  padding-bottom: 0px;
+}
+
+.about-content {
+  padding: 20px;
+  font-size: 16px;
+  color: #888;
+}
+
+.about-link {
+  padding: 20px;
+  padding-top: 0px;
+  font-size: 16px;
+  font-family: Lato Light;
+}
+
+.about-link span {
+  padding-right: 20px;
+  color: red;
+  text-transform: uppercase;
+}
+
+.about-link i {
+  padding-right: 10px;
+}
+
+.review-container {
+  padding: 20px;
+  padding-top: 0px;
+  padding-bottom: 0px;
+}
+
+.review-title {
+  font-size: 14px;
+  text-transform: uppercase;
+}
+
+.review-writecontent {
+  background-color: #ccc;
+  padding: 10px;
+  font-size: 14px;
+  text-transform: capitalize;
+}
+
+.review-detail {
+  padding: 20px;
+  padding-left: 0px;
+  padding-right: 10px;
+}
+
+.review-detail span {
+  color: red;
+  font-size: 14px;
+  padding: 10px;
+  text-transform: uppercase;
+}
