@@ -61,8 +61,8 @@
 
 .review-writecontent {
   background-color: #ccc;
-  padding: 10px;
-  font-size: 14px;
+  padding: 5px;
+  font-size: 12px;
   text-transform: capitalize;
 }
 
@@ -77,4 +77,46 @@
   font-size: 14px;
   padding: 10px;
   text-transform: uppercase;
+}
+
+.reviewer {
+  padding: 20px;
+}
+
+.reviewer-image {
+  background-color: #ccc;
+  width: 30px;
+  height: 30px;
+  float: left;
+}
+
+.reviewer-name {
+  font-size: 14px;
+  text-transform: uppercase;
+  padding-left: 10px;
+}
+
+.reviewer-detail {
+  padding-top: 10px;
+  float: left;
+}
+
+.reviewer-content {
+  font-size: 14px;
+}
+
+.reviewer-reviews {
+  font-size: 12px;
+  padding-left: 10px;
+}
+
+.follower {
+  padding: 5px;
+  font-size: 16px;
+  font-family: Lato Light;
+}
+
+.follower span {
+  padding-left: 10px;
+  padding-right: 10px;
 }
