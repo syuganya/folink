@@ -31,12 +31,12 @@
 .title {
   float: none;
   text-transform: uppercase;
-  font-size: 12px;
+  font-size: 14px;
 }
 
 .product-description {
   padding: 10px;
-  font-size: 14px;
+  font-size: 12px;
 }
 
 .product-desctitle {
@@ -61,7 +61,7 @@
 }
 
 .block-ellipsis span {
-  color: #000;
+  color: #333;
 }
 
 .block-ellipsis {

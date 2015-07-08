@@ -442,7 +442,7 @@ input[type="submit"] {
   padding: 10px;
   padding-top: 0px;
   color: red;
-  font-size: 10px;
+  font-size: 12px;
   text-transform: uppercase;
 }
 /*review star */
@@ -488,35 +488,6 @@ label {
   float: inherit;
 }
 /***** CSS Magic to Highlight Stars on Hover *****/
-
-.rating > input:checked ~ label,
-/* show gold star when clicked */
-/*.rating:not(:checked) > label:hover,*/
-/* hover current star */
-/*.rating:not(:checked) > label:hover ~ label {
-  color: #F70606;
-}*/
-/* hover previous stars in list */
-/*.rating > input:checked + label:hover,
- hover current star when changing rating 
-
-.rating > input:checked ~ label:hover,
-.rating > label:hover ~ input:checked ~ label,
-*/
-/* lighten current selection */
-/*.rating > input:checked ~ label:hover ~ label {
-  color: #F70606;
-}
-*/
-
-.reviewstar {
-  float: right;
-  /* padding: 50px;
- padding-top: 0px;
- padding-right: 0px;
- margin-top: -20px;
-*/
-}
 
 .loadmore {
   left: 0;
