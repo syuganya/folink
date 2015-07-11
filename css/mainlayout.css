@@ -92,7 +92,7 @@ body {
 .notify-container {
   width: 230px;
   background-color: #ccc;
-  margin: 50px;
+  margin: 75px;
 }
 
 .notification {
@@ -382,7 +382,8 @@ input[type="submit"] {
 .item-container-title {
   padding: 20px;
   padding-bottom: 0px;
-  font-size: 22px;
+  font-size: 24px;
+  text-transform: uppercase;
   font-family: Lato Light;
 }
 
