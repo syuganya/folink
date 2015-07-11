@@ -5,7 +5,7 @@
 }
 
 .category-breadcumb {
-  color: red;
+  color: #D71121;
   font-size: 12px;
   padding: 20px;
 }
@@ -103,7 +103,7 @@
   margin-top: 25%;
   font-size: 14px;
   text-transform: uppercase;
-  color: red;
+  color: #D71121;
   float: right;
   width: 60%;
 }
@@ -121,7 +121,7 @@
   float: right;
   width: 150px;
   padding: 5px;
-  border: 1px solid red;
+  border: 1px solid #D71121;
 }
 
 .sort-dropdown ul:hover {
@@ -185,7 +185,7 @@
 /*sports landing page*/
 
 .landing-title {
-  color: red;
+  color: #D71121;
   font-size: 32px;
   font-family: Lato Light;
 }

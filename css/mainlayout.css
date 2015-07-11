@@ -29,7 +29,7 @@ body {
 
 .nav>li>a:hover {
   background-color: transparent;
-  border-bottom: 2px solid red;
+  border-bottom: 2px solid #D71121;
 }
 
 .nav>li>a:focus {
@@ -38,7 +38,7 @@ body {
 
 .active {
   background-color: transparent;
-  border-bottom: 2px solid red;
+  border-bottom: 2px solid #D71121;
 }
 
 .nav-menus {
@@ -67,12 +67,12 @@ body {
 }
 
 .main-leftmenus .active {
-  color: red;
+  color: #D71121;
   border-bottom: 0px solid #fff;
 }
 
 .main-leftmenus >li>a {
-  color: #000;
+  color: #888;
   text-transform: uppercase;
   text-decoration: none;
   padding: 10px;
@@ -80,7 +80,7 @@ body {
 }
 
 .main-leftmenus >li>a:hover {
-  color: red;
+  color: #D71121;
   cursor: pointer;
 }
 
@@ -120,7 +120,7 @@ body {
 }
 
 .notifier-name {
-  color: red;
+  color: #D71121;
   text-transform: uppercase;
 }
 /*sub menu styles*/
@@ -142,7 +142,7 @@ body {
 }
 
 .sub-leftmenus >li>a:hover {
-  color: red;
+  color: #D71121;
   cursor: pointer;
 }
 
@@ -167,7 +167,7 @@ body {
 
 .footer-menus .active {
   background-color: #ddd;
-  color: red;
+  color: #D71121;
   border-bottom: 0px solid #fff;
 }
 
@@ -235,7 +235,7 @@ input[type="submit"] {
 .search,
 input[type="submit"] {
   font-family: FontAwesome;
-  background-color: red;
+  background-color: #D71121;
   color: #fff;
 }
 
@@ -305,7 +305,7 @@ input[type="submit"] {
 }
 
 .activeSlider {
-  border-left: 4px solid red;
+  border-left: 4px solid #D71121;
 }
 
 .pagination {
@@ -319,7 +319,7 @@ input[type="submit"] {
 }
 
 .activeindicator {
-  background-color: red;
+  background-color: #D71121;
 }
 
 .container-border {
@@ -363,7 +363,7 @@ input[type="submit"] {
   font-family: Lato Light;
   letter-spacing: 0.1em;
   line-height: 1em;
-  color: red;
+  color: #D71121;
 }
 
 .content-subtitle {
@@ -389,11 +389,11 @@ input[type="submit"] {
 
 .item-container-title span {
   float: right;
-  color: red;
+  color: #D71121;
   font-weight: bold;
   font-size: 12px;
   text-transform: uppercase;
-  font-family: Lato Light;
+  font-family: Lato;
 }
 
 .item-container-title span i {
@@ -442,14 +442,14 @@ input[type="submit"] {
 .review-folink {
   padding: 10px;
   padding-top: 0px;
-  color: red;
+  color: #D71121;
   font-size: 12px;
   text-transform: uppercase;
 }
 /*review star */
 
 .icon-star {
-  color: red;
+  color: #D71121;
 }
 
 fieldset,
@@ -500,7 +500,7 @@ label {
 }
 
 .loadmore-button {
-  background-color: red;
+  background-color: #D71121;
   padding: 15px;
   font-size: 18px;
   text-align: center;
@@ -556,4 +556,36 @@ label {
   .sub-leftmenus {
     margin-left: 103%;
   }
+}
+/*@import "compass/css3";
+@import url(http://fonts.googleapis.com/css?family=Open+Sans:400,600,700);
+* {
+  margin: 0;
+  padding: 0;
+  @include box-sizing(border-box);
+}
+
+*/
+
+.multi-ellipsis {
+  display: block;
+  display: -webkit-box;
+  height: 26*1.4*3;
+  margin: 0px !important;
+  float: left;
+  font-size: 14px;
+  line-height: 1.4;
+  -webkit-line-clamp: 4;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.readmore {
+  float: right;
+  font-size: 13px;
+  margin-top: -20px;
+  text-transform: uppercase;
+  color: #D71121;
+  width: 100px;
 }
